@@ -4,17 +4,15 @@ public class Cliente {
     //ATRIBUTOS
     private String nombre;
     private String apellido;
-    private int edad;
     private LocalDate fechaNacimiento;
     private String DNI;
     private boolean sexo;
     private int altura;
     private Pesaje[] pesajes;
     //CONSTRUCTOR
-    public Cliente(String nombre,String apellido, int edad, LocalDate fechaNacimiento, String DNI, boolean sexo, int altura){
+    public Cliente(String nombre,String apellido,LocalDate fechaNacimiento, String DNI, boolean sexo, int altura){
         this.nombre = nombre;
         this.apellido = apellido;
-        this.edad = edad;
         this.fechaNacimiento = fechaNacimiento;
         this.DNI = DNI;
         this.sexo = sexo;
